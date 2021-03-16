@@ -271,6 +271,7 @@ img {
       "item2 "
       "footer ";
   }
+gridMadeResponsive
 
   .burger {
     display: block;
@@ -294,3 +295,33 @@ img {
     display: none;
   }
 }
+=======
+  @media screen and (max-width: 650px) {
+    body {
+      padding: 15px;
+      grid-template-rows: 10% 5% 20% 45% 20% 20% 10%;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      grid-template-areas:
+        "advt"
+        "header "
+        "slider"
+        "sidebar"
+        "item1 "
+        "item2 "
+        "footer ";
+    }
+    .burger{
+     display:block;
+      background:red;
+  }
+    .list{
+     display:none
+    }
+  /*   .big{
+      display:flex;
+      flex-direction:column;
+      
+    } */
+  }
+ 
