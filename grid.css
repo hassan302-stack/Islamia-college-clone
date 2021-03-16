@@ -245,20 +245,20 @@
    
     display:none;
   }
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 650px) {
     body {
-        grid-template-rows:250px 80px 350px 250px 120px 320px 150px;
-    grid-template-columns:1fr 1fr 1fr ;
-      background-color: lightgreen;
-      grid-template-areas:"advt advt advt"
-      "header header header "
-      "slider slider slider "
-     " sidebar sidebar sidebar"
-     "item1 item2 item2 "
-     "item1 item2 item2 "
-     "footer footer footer";
-
-     grid-auto-rows:450px;
+      padding: 15px;
+      grid-template-rows: 10% 5% 20% 45% 20% 20% 10%;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      grid-template-areas:
+        "advt"
+        "header "
+        "slider"
+        "sidebar"
+        "item1 "
+        "item2 "
+        "footer ";
     }
     .burger{
      display:block;
